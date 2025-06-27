@@ -432,7 +432,8 @@
         <a href="#" id="nav-hombre">Hombre ▼</a>
         <div class="dropdown-menu" id="menu-hombre">
           <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="">Todos</a>
-          <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="playera">Camisetas</a>
+          <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="botones">Camisas</a>
+          <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="camiseta">Camisetas</a>
           <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="sudadera">Sudaderas</a>
           <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="pantalon">Pantalones</a>
           <a href="#" class="dropdown-item" data-categoria="hombre" data-subcat="bañador">Bañadores</a>
@@ -443,7 +444,7 @@
         <a href="#" id="nav-mujer">Mujer ▼</a>
         <div class="dropdown-menu" id="menu-mujer">
           <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="">Todos</a>
-          <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="playera">Camisetas</a>
+          <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="camiseta">Camisetas</a>
           <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="pantalon">Pantalones</a>
           <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="short">Shorts</a>
           <a href="#" class="dropdown-item" data-categoria="mujer" data-subcat="falda">Faldas</a>
@@ -454,7 +455,7 @@
         <a href="#" id="nav-ofertas">Ofertas ▼</a>
         <div class="dropdown-menu" id="menu-ofertas">
           <a href="#" class="dropdown-item" data-categoria="todas" data-subcat="">Todas</a>
-          <a href="#" class="dropdown-item" data-categoria="todas" data-subcat="playera">Camisetas</a>
+          <a href="#" class="dropdown-item" data-categoria="todas" data-subcat="camiseta">Camisetas</a>
           <a href="#" class="dropdown-item" data-categoria="todas" data-subcat="pantalon">Pantalones</a>
           <a href="#" class="dropdown-item" data-categoria="todas" data-subcat="accesorio">Accesorios</a>
         </div>
@@ -494,7 +495,7 @@
   <div id="carrito-modal">
     <h2>🛒 Tu Carrito</h2>
     <ul id="carrito-lista"></ul>
-    <p id="carrito-total">Total: ₡0.000 CRC</p>
+    <p id="carrito-total">Total: ₡0.00 CRC</p>
     <button id="carrito-cerrar">Cerrar</button>
   </div>
 
@@ -509,7 +510,7 @@
   </div>
 
   <footer>
-    <p>&copy; 2025 Tienda - Todos los derechos reservados</p>
+    <p>&copy; 2025 Distribuidora Mok - Todos los derechos reservados</p>
   </footer>
 
   <!-- Boton whatsapp -->
@@ -565,21 +566,21 @@
     const productosData = [
       {
         nombre: "Short Mezclilla",
-        precio: 105,
+        precio: 10500,
         categoria: "mujer",
         subcat: "short",
         img: "imagenes/mujer/short/ShortJeans.png"
       },
       {
         nombre: "Short Mezclilla",
-        precio: 105,
+        precio: 10500,
         categoria: "mujer",
         subcat: "short",
         img: "imagenes/mujer/short/ShortJeans2.png"
       },
       {
         nombre: "Short Mezclilla",
-        precio: 105,
+        precio: 10500,
         categoria: "mujer",
         subcat: "short",
         img: "imagenes/mujer/short/ShortSencillo.png"
@@ -591,53 +592,206 @@
         subcat: "falda",
         img: "imagenes/mujer/falda/FaldaSencilla.png"
       },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotones1.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotones2.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotones3.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotones4.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotones5.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotonesRoja.png"
+      },
+            {
+        nombre: "Camisa de Botones",
+        precio: 9500,
+        categoria: "hombre",
+        subcat: "botones",
+        img: "imagenes/hombre/camisa/CamisaBotonesVerde.png"
+      },
       {
         nombre: "Camiseta Adidas",
-        precio: 28,
+        precio: 2800,
         categoria: "hombre",
         subcat: "camiseta",
         img: "imagenes/hombre/camiseta/CamisetaAdNegra.png"
       },
       {
         nombre: "Camiseta Nike",
-        precio: 28,
+        precio: 2800,
         categoria: "hombre",
         subcat: "camiseta",
         img: "imagenes/hombre/camiseta/CamisetaNAzul.png"
       },
       {
         nombre: "Camiseta Volcom",
-        precio: 28,
+        precio: 2800,
         categoria: "hombre",
         subcat: "camiseta",
         img: "imagenes/hombre/camiseta/CamisetaVRoja.png"
       },
       {
         nombre: "Camiseta Mok",
-        precio: 28,
+        precio: 2800,
         categoria: "hombre",
         subcat: "camiseta",
         img: "imagenes/hombre/camiseta/CamisetaNegra.png"
       },
       {
         nombre: "Camiseta Sin Mangas",
-        precio: 25,
+        precio: 2500,
         categoria: "hombre",
         subcat: "camiseta",
         img: "imagenes/hombre/camiseta/CamisetaMangasVerde.png"
       },
       {
         nombre: "Sudadera con Capucha",
-        precio: 20,
+        precio: 9500,
         categoria: "hombre",
         subcat: "sudadera",
         img: "imagenes/hombre/sudadera/sudadera verde.png"
       },
-
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador1.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador2.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador3.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador4.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador5.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador6.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador7.png"
+      },
+            {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador8.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador9.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador10.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador11.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador12.png"
+      },
+      {
+        nombre: "Bañador Estampado",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/Bañador13.png"
+      },
+      {
+        nombre: "Bañador Liso",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/BañadorNegro.png"
+      },
+      {
+        nombre: "Bañador Liso",
+        precio: 6500,
+        categoria: "hombre",
+        subcat: "bañador",
+        img: "imagenes/hombre/bañador/BañadorRojo.png"
+      }
       
     ];
 
-    const PRODUCTOS_POR_PAGINA = 40; // 4 x 10
+    const PRODUCTOS_POR_PAGINA = 20; // 2 x 10
     let paginaActual = 1;
     let productosFiltrados = [];
 
@@ -749,7 +903,7 @@
         div.innerHTML = `
           <img src="${prod.img}" alt="${prod.nombre}" />
           <h3>${prod.nombre}</h3>
-          <p>₡${prod.precio}.000 CRC</p>
+<p>₡${prod.precio.toLocaleString('es-CR', { minimumFractionDigits: 2 })} CRC</p>
           <button class="btn-carrito">Agregar al carrito</button>
         `;
         div.querySelector('.btn-carrito').addEventListener('click', function(e) {
@@ -760,7 +914,7 @@
           if (e.target.classList.contains('btn-carrito')) return;
           document.getElementById('modal-detalle-img').src = prod.img;
           document.getElementById('modal-detalle-nombre').textContent = prod.nombre;
-          document.getElementById('modal-detalle-precio').textContent = '₡' + prod.precio + '.000 CRC';
+          document.getElementById('modal-detalle-precio').textContent = '₡' + prod.precio + '.00 CRC';
           document.getElementById('modal-detalle-categoria').textContent = '';
           document.getElementById('modal-detalle').style.display = 'flex';
         });
@@ -956,7 +1110,7 @@
           // Oculta la categoría en el modal
           document.getElementById('modal-detalle-img').src = img;
           document.getElementById('modal-detalle-nombre').textContent = nombre.charAt(0).toUpperCase() + nombre.slice(1);
-          document.getElementById('modal-detalle-precio').textContent = '₡' + precio + '.000 CRC';
+          document.getElementById('modal-detalle-precio').textContent = '₡' + precio + '.00 CRC';
           document.getElementById('modal-detalle-categoria').textContent = '';
           document.getElementById('modal-detalle').style.display = 'flex';
         });
@@ -1039,13 +1193,13 @@
       carrito.forEach((item, idx) => {
         const li = document.createElement('li');
         li.innerHTML = `
-          <span>${item.nombre} <span style="color:#888;font-size:0.95em;">- ₡${item.precio}.000 CRC</span></span>
+          <span>${item.nombre} <span style="color:#888;font-size:0.95em;">- ₡${item.precio}.00 CRC</span></span>
           <button class="btn-eliminar-carrito" onclick="eliminarDelCarrito(${idx})">✕</button>
         `;
         lista.appendChild(li);
         total += item.precio;
       });
-      document.getElementById('carrito-total').textContent = 'Total: ₡' + total + '.000 CRC';
+      document.getElementById('carrito-total').textContent = 'Total: ₡' + total + '.00 CRC';
       document.getElementById('carrito-contador').textContent = carrito.length;
     }
 
